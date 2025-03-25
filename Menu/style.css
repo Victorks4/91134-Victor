@@ -1,0 +1,61 @@
+*{
+    /* reseta as configurações do browser*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color:black; 
+        color: white;
+        
+    }
+
+ nav{
+    background-color: rgb(192, 19, 7);  
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+ }
+
+  ul li{
+    color: aliceblue;
+    list-style: none;
+    display: inline;
+    padding: 80px;
+    margin: 30px;
+   
+ }
+ 
+ nav ul{
+    list-style: none;
+    padding: 0;
+ }
+
+ nav ul li{
+    display: inline-block;
+    color: white;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+ }
+
+ nav ul li:hover {
+    background-color: #FFD700; /* Cor dourada de destaque */
+    color: #121212; /* Cor do texto quando passa o mouse */
+}
+
+.container{
+    max-width: 1200px;
+    margin: 40px;
+}
+
+ h1{
+    padding: 20px;
+    text-align: center;
+ }
