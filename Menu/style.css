@@ -1,61 +1,137 @@
-*{
-    /* reseta as configurações do browser*/
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+   /* Reseta as configurações do browser */
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
 
-    body{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-color:black; 
-        color: white;
-        
-    }
-
- nav{
-    background-color: rgb(192, 19, 7);  
-    text-align: center;
-    padding: 10px;
-    margin: 5px;
- }
-
-  ul li{
-    color: aliceblue;
-    list-style: none;
-    display: inline;
-    padding: 80px;
-    margin: 30px;
-   
- }
- 
- nav ul{
-    list-style: none;
-    padding: 0;
- }
-
- nav ul li{
-    display: inline-block;
-    color: white;
-    list-style: none;
-    padding: 10px 20px;
-    margin: 10px 20px;
-    font-size: 18px;
-    text-transform: uppercase;
-    cursor: pointer;
-
- }
-
- nav ul li:hover {
-    background-color: #FFD700; /* Cor dourada de destaque */
-    color: #121212; /* Cor do texto quando passa o mouse */
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: black;
+   color: white;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 40px;
+nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
 }
 
- h1{
-    padding: 20px;
-    text-align: center;
- }
+nav {
+   background-color: rgb(192, 19, 7);  
+   text-align: center;
+   padding: 10px;
+   margin: 5px;
+}
+
+ul li {
+   color: aliceblue;
+   list-style: none;
+   display: inline;
+   padding: 80px;
+   margin: 30px;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline-block;
+   color: white;
+   list-style: none;
+   padding: 10px 20px;
+   margin: 10px 20px;
+   font-size: 18px;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+nav ul li:hover {
+   background-color: #FFD700; 
+   color: #121212; 
+}
+
+.home {
+   width: 100%; /* Adiciona 100% de largura para ocupar toda a tela */
+   max-width: 1200px; /* Limita a largura máxima */
+   margin: 40px auto; /* Centraliza o contêiner com margem automática nas laterais */
+}
+
+h1 {
+   padding: 20px;
+   font-size: 22pt;
+   font-weight: bold;
+   text-align: center;
+   margin: 0 auto; /* Centraliza o h1 */
+   width: 100%; /* Garante que o título ocupe toda a largura disponível */
+}
+
+h2 {
+   padding: 5px;
+   margin: 5px;
+}
+
+h3 {
+   padding-bottom: 15px;
+   margin: 10px;
+}
+
+p {
+   margin: 10px;
+}
+
+img {
+   margin-top: 10px;
+   margin: 10px;
+}
+
+.Parceiros{
+      padding: 10px;
+      margin: 10px;
+
+}
+
+i.fab.fa-instagram {
+   font-size: 40px; /* Tamanho do ícone */
+   color: #E4405F; /* Cor do Instagram */
+   transition: color 0.3s ease; /* Animação para a cor */
+   margin: 10px;
+}
+
+i.fab.fa-instagram:hover {
+   color: #3f729b; /* Cor quando o ícone é passado por cima */
+}
+
+.Email p{
+   margin: 10px;
+}
+i.fas.fa-envelope {
+   font-size: 30px; /* Tamanho do ícone */
+   color: #20a9d3; /* Cor do ícone */
+   transition: color 0.3s ease; /* Efeito de transição para cor */
+   margin: 10px; ;
+}
+
+i.fas.fa-envelope:hover {
+   color: #0056b3; /* Cor do ícone ao passar o mouse */
+}
+
+.social-link{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   margin-bottom: 10px;
+}
+
+.social-link i {
+   font-size: 30px; /* Tamanho do ícone */
+   margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.social-link span {
+   font-size: 18px; /* Tamanho do texto */
+}
