@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Coloca o h1 e o menu (h2) um embaixo do outro */
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px; 
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.novo
+
+.container {
+    display: flex;
+    min-height: 38vh;
+    width: 100%;
+}
+.novo-bloco{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    
+    text-align: center;
+}
+
+.conteudo {
+    width:auto;
+    padding: 100px;
+    background-color: gray;
+    text-align: center;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 100px;
+    width: auto;
+    
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+    width: 800px;
+    height: 80px;
+    margin-right: 5px;
+    padding: 100px;
+    align-items: center;
+    border: 2px solid white;
+}
+
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(65, 64, 64);
+    padding: 100px;
+    width: auto;
+    margin: 5px;
+    
+}
+
+.quadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+    width: 800px;
+    height: 80px;
+    margin-right: 10px;
+    padding: 110px;
+    align-items: center;
+    border: 2px solid rgb(119, 118, 118);
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+    background-color:whi;
+    padding: 60px;
+    width: auto;
+    
+}
+
+.manteiga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(170, 166, 166);
+    width: 600px;
+    height: 300px;
+    margin-right: 50px;
+    padding: 110px;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
