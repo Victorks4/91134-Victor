@@ -81,6 +81,14 @@ main img{
     margin-top: 20px; /* Espamento acima da imagem*/
 }
 
+.content2 p{
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.8; /* Aumenta a altura das linhas para tornar o texto mais arejado */ /* Dá mais espaçamento abaixo do parágrafo */
+    padding: 0 20px; 
+}
+
+
 footer{
     background-color: #333;
     color: white;
@@ -91,3 +99,9 @@ footer{
     width: 100%;
     height: 10%;
 }
+
+.footer2{
+    height: max-content;
+}
+
+
