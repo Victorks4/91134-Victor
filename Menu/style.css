@@ -17,13 +17,14 @@ nav ul {
    display: flex;
    justify-content: center;
    gap: 20px;
+   padding: 8px;
 }
 
 nav {
    background-color: rgb(192, 19, 7);  
    text-align: center;
    padding: 10px;
-   margin: 5px;
+ 
 }
 
 ul li {
