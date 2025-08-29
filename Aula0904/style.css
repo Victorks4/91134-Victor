@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos gerais do corpo da pagina*/
+
+body{
+    font-family:  Helvetica;
+    line-height: 1.5; /* altura da linha*/
+}
+
+/*Estilo do cabeçalho e do menu*/
+
+header{
+    background-color: grey;
+    padding: 10px 0; /* Espaçamento vertical*/
+}
+
+/* Remove os marcadores da lista e centraliza os itens */
+nav ul{
+    list-style: none; /*remove pontos da lista*/
+    display: flex; /*coloca os itens em linha*/
+    justify-content: center; /*Centraliza os itens*/    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative; /* Necessário para que o dropdown seja posicionado corretamente */
+}
+
+/* Restante do código já está correto */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown-content li a {
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+.dropdown-content li a:hover {
+    background-color: rgb(161, 161, 161);
+}
+
+/* Mostra o dropdown ao passar o mouse sobre o item pai */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+main{
+    padding: 20px;
+    text-align: center;
+}
+
+main h1{
+    font-size: 36px; /* Tamanho da fonte do titulo*/
+    margin-bottom: 20px; /*Espaçamento abaixo do titulo*/
+}
+
+main img{
+    max-width: 100%; /* A imagem não ultrapassa a largura da tela*/
+    height: auto; /*Mantem a proporção*/
+    margin-top: 20px; /* Espamento acima da imagem*/
+}
+
+.content2 p{
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.8; /* Aumenta a altura das linhas para tornar o texto mais arejado */ /* Dá mais espaçamento abaixo do parágrafo */
+    padding: 0 20px; 
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
+.footer2{
+    height: max-content;
+}
+
+
