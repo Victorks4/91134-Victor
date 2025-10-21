@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
-<body>
-    
+<body class="min-h-screen relative overflow-hidden">
+    <div class = "absolute inset-0 bg-[url('img/outubro_rosa.png')] bg-cover bg-center bg-no-repeat animate-slide-down -z-10"></div>
+
+        <div class="flex flex-col items-center justify-center min-h-screen gap-8">
+            <h1 class="text-4xl font-bold text-pink-600 animate-fade-in">Outubro Rosa</h1>
+            <p class="text-lg text-white max-w-xl text-center animate-slide-in-left">
+                Outubro Rosa é uma campanha anual realizada em todo o mundo com o objetivo de conscientizar as pessoas sobre a importância da prevenção e do diagnóstico precoce do câncer de mama. Durante esse mês, diversas ações são promovidas para informar sobre os fatores de risco, os métodos de prevenção e a importância do autoexame e das mamografias regulares.
+            </p>
+            <button class="bg-pink-500 text-white px-6 py-3 rounded-full hover:bg-pink-600 transition animate-slide-in-right">
+                Saiba Mais
+            </button>
+        </div>
+
+
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                animation: {
+                    'fade-in': 'fadeIn 3s ease-in-out',
+                    'slide-in-left': 'slideInLeft 4s ease-out',
+                    'slide-in-right': 'slideInRight 4.5s ease-out',
+                    'slide-down': 'slideDown 2s ease-out'
+                },
+                keyframes: {
+                    fadeIn: {
+                        '0%': { opacity: '0' },
+                        '100%': { opacity: '1' }
+                    },
+                    slideInLeft: {
+                        '0%': { transform: 'translateX(-100%)', opacity: '0' },
+                        '100%': { transform: 'translateX(0)', opacity: '1' }
+                    },
+                    slideInRight: {
+                        '0%': { transform: 'translateX(100%)', opacity: '0' },
+                        '100%': { transform: 'translateX(0)', opacity: '1' }
+                    },
+                    slideDown:{
+                        '0%': { transform: 'translateY(-100%)', opacity: '0' },
+                        '100%': { transform: 'translateY(0)', opacity: '1' }
+                    }
+                }
+            }
+        }
+    }
+</script>
 </body>
 </html>
